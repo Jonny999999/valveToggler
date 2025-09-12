@@ -1997,6 +1997,113 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Mechanical:MountingHole_Pad"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole_Pad"
+				(at 0 4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole with connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*Pad*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_Pad_0_1"
+				(circle
+					(center 0 1.27)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_1_1"
+				(pin input line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Optocoupler_AKL:LTV-817"
 			(pin_names
 				(offset 1.016)
@@ -4302,7 +4409,7 @@
 	)
 	(rectangle
 		(start 53.34 15.494)
-		(end 109.22 46.99)
+		(end 114.3 49.53)
 		(stroke
 			(width 0)
 			(type default)
@@ -4656,6 +4763,12 @@
 		(uuid "06568cb5-872c-4ca8-a83d-4981047d4cc5")
 	)
 	(junction
+		(at 313.69 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "081b98ce-bf75-4131-9045-b7df44b70adb")
+	)
+	(junction
 		(at 172.72 236.22)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4672,6 +4785,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "21f07121-f796-468d-bb60-90fe17f236e2")
+	)
+	(junction
+		(at 313.69 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "24217773-611a-4083-9227-8d8bda613e90")
 	)
 	(junction
 		(at 81.28 233.68)
@@ -4738,6 +4857,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5cffb586-b184-40d7-8389-13b250b4ac0e")
+	)
+	(junction
+		(at 313.69 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "679d0f79-7b85-4367-b9a7-1a1f03c79a29")
 	)
 	(junction
 		(at 238.76 85.09)
@@ -4971,6 +5096,16 @@
 	)
 	(wire
 		(pts
+			(xy 109.22 25.4) (xy 109.22 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1842aaf9-144c-4522-96b9-7fe84481b323")
+	)
+	(wire
+		(pts
 			(xy 53.34 162.56) (xy 55.88 162.56)
 		)
 		(stroke
@@ -5018,6 +5153,16 @@
 			(type default)
 		)
 		(uuid "1ef8f903-17b1-4fd6-b67e-98e7f8df3899")
+	)
+	(wire
+		(pts
+			(xy 313.69 62.23) (xy 313.69 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2274ff9c-db87-4ad5-bba2-879e9805b477")
 	)
 	(wire
 		(pts
@@ -5111,6 +5256,16 @@
 	)
 	(wire
 		(pts
+			(xy 312.42 62.23) (xy 313.69 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f06aed0-42ae-403d-ae60-149c87b9bdda")
+	)
+	(wire
+		(pts
 			(xy 38.1 48.26) (xy 38.1 49.53)
 		)
 		(stroke
@@ -5128,6 +5283,16 @@
 			(type default)
 		)
 		(uuid "318639a6-9b08-4206-a857-cfa9fb5163c2")
+	)
+	(wire
+		(pts
+			(xy 313.69 57.15) (xy 313.69 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32133e64-2eaa-41e7-9fbd-18c659bf2a30")
 	)
 	(wire
 		(pts
@@ -5291,6 +5456,16 @@
 	)
 	(wire
 		(pts
+			(xy 313.69 46.99) (xy 313.69 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a36a3d6-9df4-4ee2-8aa2-2d3640cbdfaf")
+	)
+	(wire
+		(pts
 			(xy 266.7 90.17) (xy 266.7 97.79)
 		)
 		(stroke
@@ -5398,6 +5573,16 @@
 			(type default)
 		)
 		(uuid "51a311c0-d2a7-4c59-b641-09792b8aa60d")
+	)
+	(wire
+		(pts
+			(xy 312.42 57.15) (xy 313.69 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "522d48c3-0566-423c-aa0b-fb6b684a345a")
 	)
 	(wire
 		(pts
@@ -5521,6 +5706,16 @@
 	)
 	(wire
 		(pts
+			(xy 313.69 52.07) (xy 313.69 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64a0edaf-b4ad-4267-9e09-853cd126084a")
+	)
+	(wire
+		(pts
 			(xy 149.86 160.02) (xy 149.86 161.29)
 		)
 		(stroke
@@ -5598,6 +5793,16 @@
 			(type default)
 		)
 		(uuid "6ab61b3b-a101-470e-9a9a-c345be750666")
+	)
+	(wire
+		(pts
+			(xy 312.42 46.99) (xy 313.69 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b563240-b390-4998-9927-febde69c5d3b")
 	)
 	(wire
 		(pts
@@ -6078,6 +6283,16 @@
 			(type default)
 		)
 		(uuid "b44df7ac-f6f4-46c3-b4ab-6ac8b05fc69c")
+	)
+	(wire
+		(pts
+			(xy 312.42 52.07) (xy 313.69 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b54363cf-d6ce-42ad-9cd3-81cb1d2d7f8b")
 	)
 	(wire
 		(pts
@@ -6628,6 +6843,16 @@
 			(type default)
 		)
 		(uuid "f76317fb-051f-4116-8e35-5baf20f74b8b")
+	)
+	(wire
+		(pts
+			(xy 109.22 27.94) (xy 99.06 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8404512-f09c-4fad-a461-1f1de6c77266")
 	)
 	(wire
 		(pts
@@ -8244,6 +8469,70 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 309.88 46.99 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "2a56a217-b5d3-4bad-84d7-f9aaa2a5fe91")
+		(property "Reference" "H1"
+			(at 304.292 46.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 308.61 43.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "mountingHoles_libJonny:MountingHole_2.2mm_NPTH-with-pad_DRC-clearance-error"
+			(at 309.88 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 309.88 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 309.88 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6531b955-306e-4fcf-9629-885c7d8e79eb")
+		)
+		(instances
+			(project "ValveToggler"
+				(path "/a53b9eab-158b-40d1-a797-d93a78db9ee9"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GNDPWR")
 		(at 266.7 149.86 0)
 		(unit 1)
@@ -8461,6 +8750,71 @@
 			(project "ValveToggler"
 				(path "/a53b9eab-158b-40d1-a797-d93a78db9ee9"
 					(reference "D7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 313.69 64.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "32b8e48d-f434-47cf-b62c-6c95dece935f")
+		(property "Reference" "#PWR0126"
+			(at 313.69 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 312.928 68.834 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 313.69 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 313.69 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 313.69 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f7ccbda2-ef24-472b-8639-7849f956fd2a")
+		)
+		(instances
+			(project "ValveToggler"
+				(path "/a53b9eab-158b-40d1-a797-d93a78db9ee9"
+					(reference "#PWR0126")
 					(unit 1)
 				)
 			)
@@ -8880,6 +9234,71 @@
 			(project "ValveToggler"
 				(path "/a53b9eab-158b-40d1-a797-d93a78db9ee9"
 					(reference "F1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 309.88 62.23 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "3feb8b29-b052-4940-b201-83798c9ab612")
+		(property "Reference" "H2"
+			(at 304.8 61.976 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 308.61 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "mountingHoles_libJonny:MountingHole_2.2mm_NPTH-with-pad_DRC-clearance-error"
+			(at 309.88 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 309.88 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 309.88 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ba9a920e-519f-4841-97b5-f9988937a3fc")
+		)
+		(instances
+			(project "ValveToggler"
+				(path "/a53b9eab-158b-40d1-a797-d93a78db9ee9"
+					(reference "H2")
 					(unit 1)
 				)
 			)
@@ -9388,6 +9807,71 @@
 			(project "ValveToggler"
 				(path "/a53b9eab-158b-40d1-a797-d93a78db9ee9"
 					(reference "OC21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 309.88 52.07 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "4ab4020b-957a-49cc-be9e-657bc269738e")
+		(property "Reference" "H3"
+			(at 304.8 51.816 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 308.61 48.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "mountingHoles_libJonny:MountingHole_2.2mm_NPTH-with-pad_DRC-clearance-error"
+			(at 309.88 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 309.88 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 309.88 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "846685e4-793f-4dc4-bf60-b762e98b3800")
+		)
+		(instances
+			(project "ValveToggler"
+				(path "/a53b9eab-158b-40d1-a797-d93a78db9ee9"
+					(reference "H3")
 					(unit 1)
 				)
 			)
@@ -9968,6 +10452,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 109.22 25.4 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "669a7e6c-a636-4b48-acf0-ea83e9218e01")
+		(property "Reference" "TP3"
+			(at 108.204 20.828 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "12V"
+			(at 108.204 22.606 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+			(at 104.14 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 104.14 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 109.22 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4f33b61f-2643-4e7e-83aa-14f375e8ea04")
+		)
+		(instances
+			(project "ValveToggler"
+				(path "/a53b9eab-158b-40d1-a797-d93a78db9ee9"
+					(reference "TP3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 142.24 46.99 0)
 		(unit 1)
@@ -10490,6 +11041,71 @@
 			(project "ValveToggler"
 				(path "/a53b9eab-158b-40d1-a797-d93a78db9ee9"
 					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 309.88 57.15 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "74f6ff18-9170-42e6-a03f-5dd23f2c535b")
+		(property "Reference" "H4"
+			(at 304.8 57.404 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 308.61 53.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "mountingHoles_libJonny:MountingHole_2.2mm_NPTH-with-pad_DRC-clearance-error"
+			(at 309.88 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 309.88 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 309.88 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bc8b05c9-0ace-41a2-b45c-48581bf382e7")
+		)
+		(instances
+			(project "ValveToggler"
+				(path "/a53b9eab-158b-40d1-a797-d93a78db9ee9"
+					(reference "H4")
 					(unit 1)
 				)
 			)
@@ -11068,7 +11684,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 			(at 80.772 139.7 90)
 			(effects
 				(font
