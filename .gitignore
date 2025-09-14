@@ -21,29 +21,16 @@ settings.json
 *.drawio
 
 
-# React
-**/react-app/build
-**/react-app/.pnp
-.pnp.js
-node_modules
-
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-
-.DS_Store
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
-
-
 #kicad
 **/*-backups/*.zip
 \#auto_saved_files\#
 *.lck
 fp-info-cache
 *.kicad_prl
+_autosave-*
+
+#pcb2gcode
+**/pcb2gcode/out/
 
 
 # other
