@@ -4871,6 +4871,12 @@
 		(uuid "2e52bb9e-2ecb-4488-b94c-4780edf1b6a6")
 	)
 	(junction
+		(at 279.4 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3a43628f-45f0-40df-ae85-eec1e89e4b31")
+	)
+	(junction
 		(at 22.86 228.6)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4961,10 +4967,22 @@
 		(uuid "83e3cb01-b205-40a3-a205-db7fc1e19d59")
 	)
 	(junction
+		(at 208.28 27.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8c71ec5d-3016-4af8-9106-50c46d65a881")
+	)
+	(junction
 		(at 266.7 127)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a375ea69-454a-4bd9-9451-af45cdb3edae")
+	)
+	(junction
+		(at 142.24 27.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ac006e70-78ba-43a7-9faf-9d377ba33d73")
 	)
 	(junction
 		(at 208.28 38.1)
@@ -5132,6 +5150,16 @@
 	)
 	(wire
 		(pts
+			(xy 279.4 41.91) (xy 279.4 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10e6f3b4-1ba1-4dc8-a8ea-9edb75c5d55b")
+	)
+	(wire
+		(pts
 			(xy 160.02 236.22) (xy 163.83 236.22)
 		)
 		(stroke
@@ -5232,7 +5260,7 @@
 	)
 	(wire
 		(pts
-			(xy 279.4 36.83) (xy 279.4 39.37)
+			(xy 279.4 36.83) (xy 279.4 41.91)
 		)
 		(stroke
 			(width 0)
@@ -5699,6 +5727,16 @@
 			(type default)
 		)
 		(uuid "541c847f-1c3b-457c-b1c4-2e22a7846f3f")
+	)
+	(wire
+		(pts
+			(xy 147.32 27.94) (xy 142.24 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54ba627a-eaa9-4012-a0e7-ffa7eb3648b5")
 	)
 	(wire
 		(pts
@@ -6502,6 +6540,16 @@
 	)
 	(wire
 		(pts
+			(xy 278.13 41.91) (xy 279.4 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf428206-e48a-4050-850c-7911632964fb")
+	)
+	(wire
+		(pts
 			(xy 80.01 161.29) (xy 81.28 161.29)
 		)
 		(stroke
@@ -6712,6 +6760,16 @@
 	)
 	(wire
 		(pts
+			(xy 213.36 27.94) (xy 208.28 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dad82f3f-551e-4d5b-8a18-7b788dc512c1")
+	)
+	(wire
+		(pts
 			(xy 147.32 233.68) (xy 147.32 236.22)
 		)
 		(stroke
@@ -6792,6 +6850,16 @@
 	)
 	(wire
 		(pts
+			(xy 147.32 26.67) (xy 147.32 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e906dc60-e31d-41e8-a79a-ce011ff63938")
+	)
+	(wire
+		(pts
 			(xy 139.7 90.17) (xy 139.7 92.71)
 		)
 		(stroke
@@ -6799,6 +6867,16 @@
 			(type default)
 		)
 		(uuid "e92b8ca9-d1f7-49ad-adc3-0a86eebdddd9")
+	)
+	(wire
+		(pts
+			(xy 213.36 26.67) (xy 213.36 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ead2b192-73a8-49d8-bc1d-0f777c058e05")
 	)
 	(wire
 		(pts
@@ -8863,7 +8941,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 279.4 39.37 0)
+		(at 279.4 45.72 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8871,7 +8949,7 @@
 		(dnp no)
 		(uuid "32b8e48d-f434-47cf-b62c-6c95dece935f")
 		(property "Reference" "#PWR0126"
-			(at 279.4 45.72 0)
+			(at 279.4 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8880,7 +8958,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 278.638 43.434 0)
+			(at 278.638 49.784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8888,7 +8966,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 279.4 39.37 0)
+			(at 279.4 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8897,7 +8975,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 279.4 39.37 0)
+			(at 279.4 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8906,7 +8984,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 279.4 39.37 0)
+			(at 279.4 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12037,6 +12115,71 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 275.59 41.91 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "87d9d34c-708d-487a-92b5-087b19f1f2f6")
+		(property "Reference" "H5"
+			(at 270.51 41.656 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 274.32 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "mountingHoles_libJonny:MountingHole_2.2mm_NPTH-with-pad_DRC-clearance-error"
+			(at 275.59 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 275.59 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 275.59 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2be31a05-261f-49f9-ae4e-3ac1da8e8039")
+		)
+		(instances
+			(project "ValveToggler"
+				(path "/a53b9eab-158b-40d1-a797-d93a78db9ee9"
+					(reference "H5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5VA")
 		(at 147.32 226.06 0)
 		(unit 1)
@@ -13395,6 +13538,140 @@
 			(project "ValveToggler"
 				(path "/a53b9eab-158b-40d1-a797-d93a78db9ee9"
 					(reference "D10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 147.32 26.67 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
+		(uuid "c0dd8ae7-03bf-4cb5-b776-ccce9c9f9257")
+		(property "Reference" "TP1"
+			(at 146.304 22.098 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "M1"
+			(at 146.304 23.876 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+			(at 142.24 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 142.24 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 147.32 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ec52ce21-a3ad-4d80-9010-3dc394a0d942")
+		)
+		(instances
+			(project "ValveToggler"
+				(path "/a53b9eab-158b-40d1-a797-d93a78db9ee9"
+					(reference "TP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 213.36 26.67 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp yes)
+		(uuid "c586d71e-62f8-4973-88b8-281be0ac2537")
+		(property "Reference" "TP2"
+			(at 212.344 22.098 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "M2"
+			(at 212.344 23.876 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+			(at 208.28 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 208.28 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 213.36 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "db16e60d-638a-4f49-a49b-c014d0a33784")
+		)
+		(instances
+			(project "ValveToggler"
+				(path "/a53b9eab-158b-40d1-a797-d93a78db9ee9"
+					(reference "TP2")
 					(unit 1)
 				)
 			)
