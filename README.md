@@ -1,7 +1,11 @@
 # ValveToggler-24V (Pneumatic Dust Filter Shaker)
 Small analog controller PCB that drives a **5/3 pneumatic valve (2 coils)** to shake dust filters of a wood-chip extraction system (*Holzspäne-Absaugung*).  
 
-*Motivation:* Take switching stress off a LOGO! PLC's **relay outputs** (high-frequency, inductive load, continous use over years) by moving the coil drive to **MOSFETs** and hardware timers. The PLC now only provides **high-impedance continous signals** to enable/disable the shaking in the desired mode.
+<p align="center">
+  <img src="photos/finished-pcb.jpg" width="50%" alt="Finished PCB – ValveToggler-24V"/>
+</p>
+
+*Motivation:* Take switching stress off a LOGO! PLC's **relay outputs** (high-frequency switching, inductive load, continuous use over years) by moving the coil drive to **MOSFETs** and hardware timers. The PLC now only provides **high-impedance continuous signals** to enable/disable the shaking in the desired mode.
 
 ---
 
@@ -9,7 +13,7 @@ Small analog controller PCB that drives a **5/3 pneumatic valve (2 coils)** to s
 - **24 V DC** supply (same rail as valve coils)
 - **5/3-way pneumatic valve** with two **24 V** coils
 - **Double acting pneumatic cylinder** shaking the filters
-- **Mechanical stops** at cylinders limits for abrupt stop so the dust falls off
+- **Mechanical stops** at cylinder's limits for abrupt stop so the dust falls off
 - Two PLC control lines: `MODE_SINGLE_24V`, `MODE_DOUBLE_24V` (double has priority)
 
 ## PCB Features
@@ -39,9 +43,20 @@ Small analog controller PCB that drives a **5/3 pneumatic valve (2 coils)** to s
 
 
 ## Photos
+Milling and Soldering:
 <p align="center">
   <a>
     <img src="photos/soldered-pcb.jpg" width="50%" alt="soldered pcb"/>
   </a>
     <img src="photos/pcb-milling.jpg" width="49%" alt="pcb milling"/>
+</p>
+
+<br>
+
+3D-Model and Finished pcb:
+<p align="center">
+  <a>
+    <img src="photos/finished-pcb.jpg" width="49%" alt="soldered pcb"/>
+  </a>
+    <img src="photos/3d-model.jpg" width="49%" alt="3d model"/>
 </p>
