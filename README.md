@@ -2,7 +2,7 @@
 Small analog controller PCB that drives a **5/3 pneumatic valve (2 coils)** to shake dust filters of a wood-chip extraction system (*Holzspäne-Absaugung*).  
 
 <p align="center">
-  <img src="photos/finished-pcb.jpg" width="50%" alt="Finished PCB – ValveToggler-24V"/>
+  <img src="photos/installed-pcb.jpg" width="45%" alt="Installed PCB – ValveToggler-24V"/>
 </p>
 
 *Motivation:* Take switching stress off a LOGO! PLC's **relay outputs** (high-frequency switching, inductive load, continuous use over years) by moving the coil drive to **MOSFETs** and hardware timers. The PLC now only provides **high-impedance continuous signals** to enable/disable the shaking in the desired mode.
